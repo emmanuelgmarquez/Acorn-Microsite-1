@@ -4,36 +4,36 @@
  */
 
 export const site = {
-  name: "[Your Name]",
+  name: "Emmanuel G. Marquez",
   /** Short version used in the header, e.g. first name + last initial. */
-  shortName: "[Your Name]",
+  shortName: "Emmanuel Marquez",
   /** Shown in the hero. Keep it specific to the roles you want. */
-  headline: "Email, lifecycle and web marketer who can also build the thing.",
+  headline: "I build and run the email programs that keep customers engaged.",
   /** 1–2 sentences under the headline. */
   intro:
-    "[Write 1–2 sentences about what you do. For example: which channels you work in, the kind of teams you support, and what you are known for.]",
+    "Email marketing specialist with 7+ years owning lifecycle, triggered, promotional and transactional email across enterprise ESPs — from Journey Builder automation and SQL segmentation to hand-coded, fully tested HTML email.",
   /** Used in SEO descriptions and the social share image. */
   description:
-    "Portfolio and résumé for a marketer working across email, CRM and lifecycle marketing, marketing automation, WordPress and front-end web development.",
+    "Emmanuel G. Marquez — email marketing specialist and lead email developer working across lifecycle, CRM and marketing automation (Salesforce Marketing Cloud, Journey Builder, SQL, AMPscript) and responsive HTML/CSS.",
   /** Your current title or the title you are targeting. */
-  role: "Email & Lifecycle Marketing · Marketing Automation · Web",
-  location: "[City, State / Remote]",
+  role: "Email Marketing Specialist · Lifecycle, CRM & Marketing Automation",
+  location: "Saratoga Springs, UT",
   /** Set to "" to hide the availability badge. */
   availability: "Open to new roles",
 
-  email: "[you@example.com]",
-  linkedin: "[https://www.linkedin.com/in/your-profile]",
+  email: "emmanuelg.marquez@gmail.com",
+  linkedin: "https://www.linkedin.com/in/emmanuelgmarquez",
   /** Set to "" if you'd rather not link a GitHub profile. */
-  github: "[https://github.com/your-username]",
+  github: "",
 
-  /** Drop your PDF at public/resume.pdf (or change this path). */
-  resumePdf: "/resume.pdf",
+  /** The PDF in /public that the "Download résumé" buttons link to. */
+  resumePdf: "/Emmanuel-Marquez-Resume.pdf",
 
   /**
    * Public URL of the deployed site. Used for canonical URLs, the sitemap
    * and Open Graph tags. Set NEXT_PUBLIC_SITE_URL in your hosting provider.
    */
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://emmanuelgmarquez.com",
 
   /**
    * Optional form backend (e.g. a Formspree endpoint such as
