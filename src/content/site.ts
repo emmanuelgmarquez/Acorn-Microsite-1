@@ -26,6 +26,17 @@ export const site = {
   /** Set to "" if you'd rather not link a GitHub profile. */
   github: "",
 
+  /**
+   * Headshot shown on the About page. Put the file in /public/images and
+   * give its pixel size. Set to null to hide it.
+   */
+  photo: {
+    src: "/images/emmanuel-marquez.webp",
+    alt: "Portrait of Emmanuel G. Marquez",
+    width: 1086,
+    height: 1448,
+  } as { src: string; alt: string; width: number; height: number } | null,
+
   /** The PDF in /public that the "Download résumé" buttons link to. */
   resumePdf: "/Emmanuel-Marquez-Resume.pdf",
 

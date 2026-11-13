@@ -23,6 +23,7 @@ function personSchema() {
     jobTitle: site.role,
     description: site.description,
     url: site.url,
+    ...(site.photo && { image: new URL(site.photo.src, site.url).toString() }),
     ...(filled(site.email) && { email: `mailto:${site.email}` }),
     ...(sameAs.length > 0 && { sameAs }),
     knowsAbout: site.targetRoles,
